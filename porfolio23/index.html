@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <!-- Email Js link-->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("m1NVhLEusPxDefxRH");
+      })();
+    </script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <a href="#" class="logo"
+        ><img src="./image/Logo.png" id="logo-img" alt="" />Rupali chouhan</a
+      >
+
+      <div class="fa-solid fa-bars" id="menu-icon"></div>
+
+      <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <div class="fa-regular fa-moon" id="darkmode"></div>
+      </ul>
+    </header>
+    <!-- Home -->
+
+    <section class="home" id="home">
+      <div class="social">
+        <a href="https://github.com/rupalichouhan87"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/rupali-chouhan-5a10b3291/"
+          ><i class="fa-brands fa-linkedin-in"></i
+        ></a>
+        <a href="https://www.instagram.com/___itz_rupali________/"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="https://www.youtube.com/@rupalichouhan1291"
+          ><i class="fa-brands fa-youtube"></i
+        ></a>
+      </div>
+      <div class="home-img">
+        <img src="./image/about.jpeg" alt="" />
+      </div>
+      <div class="home-text">
+        <span>Hello, I'm</span>
+        <h1>Rupali chouhan</h1>
+        <h2>Full Stack Web Developer</h2>
+        <p>
+          I'm known for being a quick learner and I am always eager to apply my
+          newfound knowledge and skills in practical situations. I consider
+          myself an energetic individual who enjoys participating in a wide
+          range of events, both technical and entertainment-oriented.
+        </p>
+        <a href="#contact" class="btn">Hire Me</a>
+        <a href="./RupalichouhanCV (2).pdf" class="btn"
+          ><i class="fa fa-download"></i> Download CV</a
+        >
+      </div>
+    </section>
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="heading">
+        <h2>About Me</h2>
+        <span>Introduction</span>
+      </div>
+      <!-- About Content -->
+      <div class="about-container">
+        <div class="about-img">
+          <img src="./image/home1.jpeg " alt="" />
+        </div>
+        <div class="about-text">
+          <p>
+            In terms of technical skills, I have a strong foundation in various
+            web development technologies, including HTML, CSS, JavaScript,
+            Node.js, Express, MongoDB, and React.js. Additionally,I possess a
+            basic understanding of operating systems, database management
+            systems (DBMS), and Java. I have a passion for various activities. I
+            love playing badminton, cooking delicious dishes, and dancing to my
+            heart's content. Speaking of achievements, I received a scholarship
+            of up to 25,000 rupees based on my impressive 82% score in my high
+            school board exams.During the lockdown period, I decided to enhance
+            my marketing and communication skills, which I believe will be
+            invaluable in both my personal and professional life.
+          </p>
+          <div class="information">
+            <!-- Box 1 -->
+            <div class="info-box">
+              <i class="fa-solid fa-user"></i>
+              <span>Rupali Chouhan</span>
+            </div>
+            <!-- Box 2 -->
+            <div class="info-box">
+              <i class="fa-solid fa-phone"></i>
+              <span>+91 8085332784</span>
+            </div>
+            <!-- Box 3 -->
+            <div class="info-box">
+              <i class="fa-solid fa-envelope"></i>
+              <span>rupalichouhan1010@gmail.com</span>
+            </div>
+          </div>
+          <a href="./RupalichouhanCV (2).pdf" class="btn"
+            ><i class="fa fa-download"></i> Download CV</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- Skills -->
+    <section class="skills" id="skills">
+      <div class="heading">
+        <h2>Skills</h2>
+        <span>My Skills</span>
+      </div>
+      <!-- Skills Content -->
+      <div class="skills-container">
+        <div class="bars">
+          <!-- Box 1 -->
+          <div class="bars-box">
+            <h3>HTML</h3>
+            <span>95%</span>
+            <div class="light-bar"></div>
+            <div class="percent-bar html-bar"></div>
+          </div>
+          <!-- Box 2 -->
+          <div class="bars-box">
+            <h3>Javascript</h3>
+            <span>75%</span>
+            <div class="light-bar"></div>
+            <div class="percent-bar css-bar"></div>
+          </div>
+          <!-- Box 3 -->
+          <div class="bars-box">
+            <h3>React JS</h3>
+            <span>74%</span>
+            <div class="light-bar"></div>
+            <div class="percent-bar js-bar"></div>
+          </div>
+          <!-- Box 4 -->
+          <div class="bars-box">
+            <h3>Express JS</h3>
+            <span>60%</span>
+            <div class="light-bar"></div>
+            <div class="percent-bar react-bar"></div>
+          </div>
+          <div class="bars-box">
+            <h3>MYSQL</h3>
+            <span>60%</span>
+            <div class="light-bar"></div>
+            <div class="percent-bar react-bar"></div>
+          </div>
+        </div>
+        <div class="bars">
+          <div class="bars-box">
+            <h3>CSS</h3>
+            <span>90%</span>
+            <div class="light-bar"></div>
+            <div class="percent-bar html-bar"></div>
+          </div>
+          <!-- Box 2 -->
+          <div class="bars-box">
+            <h3>Bootsrap</h3>
+            <span>72%</span>
+            <div class="light-bar"></div>
+            <div class="percent-bar css-bar"></div>
+          </div>
+          <!-- Box 3 -->
+          <div class="bars-box">
+            <h3>Node JS</h3>
+            <span>70%</span>
+            <div class="light-bar"></div>
+            <div class="percent-bar js-bar"></div>
+          </div>
+          <!-- Box 4 -->
+          <div class="bars-box">
+            <h3>MongoDB</h3>
+            <span>80%</span>
+            <div class="light-bar"></div>
+            <div class="percent-bar react-bar"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio -->
+    <section class="portfolio" id="portfolio">
+      <div class="heading">
+        <h2>Portfolio</h2>
+        <span>My Projects</span>
+      </div>
+      <div class="portfolio-content">
+        <div class="portfolio-img projects">
+          <img
+            src="./image/amazonLandingPage.png"
+            alt=""
+            onclick="window.open('https://amazonlendingpage.netlify.app/')"
+          />
+        </div>
+        <div class="portfolio-img">
+          <img
+            src="./image/revealwebsite.png"
+            alt=""
+            onclick="window.open('https://revealwebsite.netlify.app/')"
+          />
+        </div>
+        <div class="portfolio-img">
+          <img
+            src="./image/BlogApp.png"
+            alt=""
+            onclick="window.open('https://github.com/rupalichouhan87')"
+          />
+        </div>
+        <div class="portfolio-img">
+          <img
+            src="./image/pizzaOrderingSite.png"
+            alt=""
+            onclick="window.open('https://pizzaforver.netlify.app/')"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <div class="heading">
+        <h2>Contact</h2>
+        <span>Connect With Us</span>
+      </div>
+      <div class="contact-form">
+        <form action="">
+          <input type="text" placeholder="Your Name" id="name" />
+          <input type="email" id="email" placeholder="Your Email" />
+          <textarea
+            name=""
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Write Message Here..."
+          ></textarea>
+          <input
+            type="button"
+            value="Send"
+            class="contact-button"
+            onclick="sendEmail()"
+          />
+        </form>
+      </div>
+    </section>
+    <!-- Footer -->
+    <div class="footer">
+      <a href="#" class="logo"
+        ><img src="./image/Logo.png" id="logo-img" alt=""
+      /></a>
+      <h4>Rupali Chouhan</h4>
+      <div class="footer-social">
+        <a href="https://github.com/rupalichouhan87"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/rupali-chouhan-5a10b3291/"
+          ><i class="fa-brands fa-linkedin-in"></i
+        ></a>
+        <a href="https://www.instagram.com/___itz_rupali________/"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="https://www.youtube.com/@rupalichouhan1291"
+          ><i class="fa-brands fa-youtube"></i
+        ></a>
+      </div>
+    </div>
+    <!-- Copyright -->
+    <div class="copyright">
+      <p>Create By <a href="">Rupali chouhan</a> | All Right Reserved.</p>
+    </div>
+
+    <!-- Link To JS -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
